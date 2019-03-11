@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Sandesh Patnurkar">
+	<meta name="description=" content="Hello, I'm Sandesh Patnurkar. Find out more about me here.">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,600,600i,700,700i" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<script>
+	document.onreadystatechange = function () {
+  var state = document.readyState
+  if (state == 'interactive') {
+       document.getElementById('contents').style.visibility="hidden";
+  } else if (state == 'complete') {
+      setTimeout(function(){
+         document.getElementById('interactive');
+         document.getElementById('load').style.visibility="hidden";
+         document.getElementById('contents').style.visibility="visible";
+      },4000);
+  }
+}
+	</script>
+</head>
+
+<title>Sandesh Patnurkar Portfolio</title>
+
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+		  <div class="navbar-header">
+			<a class="navbar-brand" href="#">Sandesh Patnurkar</a>
+		  </div>
+		  <ul class="nav navbar-nav">
+			<li><a href="#"><i class="fas fa-smile-wink" style="font-size:20px"></i></a></li>
+			<li><a href="#1"><i class="fas fa-graduation-cap" style="font-size:20px"></i></a></li>
+			<li><a href="#2"><i class="fas fa-project-diagram" style="font-size:20px"></i></a></li>
+			<li><a href="#3"><i class="fas fa-file-alt" style="font-size:20px"></i></a></li>
+		  </ul>
+		</div>
+	  </nav>
+	  <hr>
+
+	  <div id="load"></div>
+<div id="contents">
+	<div class="container resume-font">
+		<div class="jumbotron">
+			<div class="row" id="0">
+			<center> <img src="profile.jpg" class="img-circle" alt="Profile Picture" style="width:40%; height:550px;"> </center>
+			<h1 class="text-primary text-center" style="color:grey">Sandesh Patnurkar</h1>
+			<p class="information">70 Callodine Avenue, Buffalo, NY 14226.</p>
+			<p class= "information">+1-(716)-381-3599 </p>
+			<center>
+					<a href=".html" class="container icon icon-cube lnk"></a>
+					<a href=".html" class="container icon icon-cube gh"></a>
+					<a href=".html" class="container icon icon-cube gm"></a>
+			</center>
+		</div>
+
+		<div class="row" id="1">
+			<hr>					
+			<h3 class="text-primary"><i class="fas fa-graduation-cap" style="font-size:40px"></i> Education</h3>
+			<hr>
+			<ul style="list-style-type:none">
+				<li><strong><i class="fas fa-user-graduate"></i> Master of Science, Computer Science and Engineering.</strong></li> 
+				<strong>State University of New York at Buffalo, NY, USA</strong>
+					<p class="indent-this"><strong>December 2018, GPA: 3.416/4</strong></p>
+					<p>Courses: Analysis of Algorithms, Computer Security, Computer Vision and Image Processing, Database Systems, Data Intensive Computing, Computer Architecture.</p>
+				<li><strong><i class="fas fa-user-graduate"></i> Bachelor of Engineering, Information Technology.</strong></li>
+				<strong>Government College of Engineering, Aurangabad, MH, INDIA</strong>
+					<p class="indent-this"><strong>May 2017, GPA: 6.875/10</strong></p>
+					<p>Courses: Analysis of Algorithms, Object-Oriented Programming, Database Management Systems, Programming in Java, Data Structures, Theory of Computation, Microprocessor and Interfacing, Operating Systems, Information Retrieval, Computer Networks.</p>
+			</ul>
+			</div>
+			<hr>
+
+			<div class="row" id="2">
+			<h3 class="text-primary"> Skills</h3>
+			<hr>
+			<ul style="list-style-type:none">
+				<li><h3><strong>Programming:</strong></h3><h1> <i class="fab fa-java" style="color:orange"></i> <i class="fab fa-html5" style="color:rgb(150, 65, 65)"></i> <i class="fab fa-css3-alt" style="color:yellow"></i> <i class="fab fa-js-square" style="color:yellow"></i> <i class="fab fa-python" style="color:rgb(59, 59, 128)"></i> </h1></li>
+				<li><h3><strong>Frameworks:</strong></h3> <h1><i class="fab fa-wordpress" style="color:rgb(57, 57, 133)"></i> <i class="fab fa-angular" style="color:rgb(122, 53, 53)"></i></h1></li>
+				<li><h3><strong>Operating Systems:</strong></h3> <h1><i class="fab fa-linux"></i> <i class="fab fa-ubuntu" style="color:orange"></i> <i class="fab fa-windows" style="color:rgb(89, 89, 231)"></i> <i class="fab fa-apple" style="color:white"></i></h1></li>
+				<li><h3><strong>Tools and Services:</strong></h3><h1> <i class="fab fa-jira" style="color:blue"></i> <i class="fab fa-github"></i></h1></li>
+			</ul>
+			<hr>
+			<h3 class="text-primary"><i class="fas fa-project-diagram" style="font-size:20px"></i> Projects</h3>
+			<hr>
+			<ul>
+				<li><i><strong>Relational Query Engine</strong></i>
+				<p class="indent-this"><strong>Feb - May 2018</strong></p></li>
+				<ul>
+				<li>Built a Relational Query Engine that evaluated SQL queries and gave their correct output.</li>
+				<li>Technologies used: Java.</li>
+				</ul>
+				<li><i><strong>Implementation of PCA and Apriori Algorithms</strong></i>
+				<p class="indent-this"><strong>Sept - Dec 2018</strong></p></li>
+				<ul>
+				<li>Implemented the PCA algorithm to reduce higher dimensional data to 2 dimensions from scratch.</li>
+				<li>Implemented the Apriori algorithm and the rule generation algorithm to find frequent itemsets in a gene dataset from scratch.</li>
+				<li>Technologies used: Python.</li>
+				</ul>
+				<li><i><strong>Data Aggregation, Big Data Analysis and Visualization</strong></i>
+				<p class="indent-this"><strong>Feb-May 2018</strong></p></li>
+				<ul>
+					<li>Collected tweets and news articles on a topic of interest using R, processed the data using Python and Hadoop's MapReduce framework and visualized the data in a word-cloud using D3.js.</li>
+					<li>Technologies used: R, Python, Hadoop, HTML5, CSS3, D3.js.</li>
+				</ul>
+				<li><i><strong>Data Collection and Exploratory Data Analysis</strong></i>
+				<p class="indent-this"><strong>Feb - May 2018</strong></p></li>
+				<ul>
+					<li>Collected tweets on a topic of interest, extracted their geolocations and plotted a heat map to find out the locations from where most tweets were tweeted.</li>
+					<li>Technologies used: R.</li>
+				</ul>
+				<li><i><strong>Spatial Pyramid Matching for Scene Classification</strong></i>
+				<p class="indent-this"><strong>Sep - Dec 2017</strong></p></li>
+				<ul>
+					<li>Built a scene classification system using Spatial Pyramid Matching based on bag-of-words approach.</li>
+					<li>Technologies used: MATLAB.</li>
+				</ul>
+				<li><i><strong>OS Process Scheduling Algorithms Simulator</strong></i>
+				<p class="indent-this"><strong>Aug 2016- May 2017</strong></p></li>
+				<ul>
+					<li>Built a simulator for various Operating Systems process scheduling algorithms. Implemented using J2EE technologies like JSP and Servlet and Database connectivity using MySQL.</li>
+					<li>Technologies used: Java, JSP, MYSQL.</li>
+				</ul>
+				<li><i><strong>Guessing game on FPGA board</strong></i>
+				<p class="indent-this"><strong>Feb - May 2018</strong></p></li>
+				<ul>
+					<li>Designed a guessing game using VHDL on Basys 3 FPGA board. 2 player game where first a user would enter a hex number through 16 slider switches and save it and player 2 would try and guess the correct number. Shows the number of attempts taken to guess in decimal after guessing the number correctly.</li>
+					<li>Technologies used: VHDL, Vivado.</li>
+				</ul>
+				<li><i><strong>Scale-Space Blob Detection</strong></i>
+				<p class="indent-this"><strong>Sep - Dec 2017</strong></p></li>
+				<ul>
+					<li>Implemented a Laplacian blob detector</li>
+					<li>Technologies used: MATLAB.</li>
+				</ul>
+				<li><i><strong>Homography and Fundamental Matrix Estimation</strong></i>
+				<p class="indent-this"><strong>Sep-Dec 2017</strong></p></li>
+				<ul>
+					<li>Implemented a robust homography and fundamental matrix estimation to register pairs of images seperated by a 2D or 3D projective transformation and stitched them together.</li>
+					<li>Technologies used: MATLAB.</li>
+				</ul>
+				<li><i><strong>Wings Android Application</strong></i>
+				<p class="indent-this"><strong> Aug 2015 - Mar 2016</strong></p></li>
+				<ul>
+					<li>An android application for Wings-2016, a National Level Event held at our undergrad institute. Gave information about various events happening across campus and allowed registering for them through the application.</li>
+					<li>Technologies used: Android Studio.</li>
+				</ul>
+				<li><i><strong>Travel Web Application</strong></i>
+				<p class="indent-this"><strong>Jan - May 2016</strong></p></li>
+				<ul>
+					<li>A web application that gave best suitable travel means and routes based on budget constraint. Implemented in Java with database connectivity using MySQL and Web Page designing using HTML and CSS.</li>
+					<li>Technologies used: Java, HTML, CSS, MySQL.</li>
+				</ul>
+			</ul>
+			</div>
+
+
+			<hr>
+			<div class="row" id="3">
+			<h3 class="text-primary">Seminars</h3>
+			<hr>
+			<ul>
+				<li><i><strong>Designing interfaces for people with disabilities</strong></i>
+				<p class="indent-this"><strong> Feb - May 2015</strong></p></li>
+				<ul>
+					<li>Discussed the different possible methods of designing interfaces for people with various kinds of disabilities.</li>
+				</ul>
+				<li><i><strong>Weather monitoring using Artificial Intelligence</strong></i>
+				<p class="indent-this"><strong>Feb - May 2016</strong></p></li>
+				<ul>
+					<li>Discussed how Machine Learning can be used to predict the weather.</li>
+				</ul>
+			</ul>
+			<hr>
+			<h3 class="text-primary"><i class="fas fa-file-alt" style="font-size:20px"></i> Certifications</h3>
+			<hr>
+			<ul>
+				<li>Completed N4 level in Japanese Language Proficiency Test.</li>
+				<li>Completed Start Deutsch (A1) German Course Exam from Goethe Institute.</li>
+			</ul>
+			<hr>
+			<h3 class="text-primary">Extra-curricular activities</h3>
+			<hr>
+			<ul>
+				<li>Taught English, Maths and Science to students from 5th grade to 10th grade at a private institute.</li>
+				<li>Served as <i>Student-Alumni Team</i> member at Government College of Engineering, Aurangabad</li>
+				<ul>
+					<li>Managed and organized various events conducted by SAT including a Global Alumni Meet that was attended by over 2000 Alumni of our institute.</li>
+				</ul>
+				<li>Won multiple awards in various Dance competitions.</li>
+				<li>Participated in Blind Coding Contest held at Wings event where we had to write a code for the given problem statement without looking at the window screen.</li>
+				<li>Participated in Code Ladder, a variation of Snake and Ladder where every correct answer to a Coding problem took you ahead and wrong one pulled you down.</li>
+			</ul>
+			</div>
+			<hr>
+			<a href="sandesh_resume.pdf" target="_blank">Click here</a> to view my resume.
+		</div>
+	</div>
+</div>
+
+</body>
+
+</html>
